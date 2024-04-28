@@ -48,19 +48,18 @@
 
                           Показан пример использования скрипта с разными названиями файлов:
                           
-Воспользуемся папкой "tests", в которую помещены ещё две папки и в каждой из них есть файл с одинаковым названием: filea.txt. Вызовем наш скрипт в терминале:
+Воспользуемся папкой "input_dir", в которую помещены ещё две папки и отдельно файл "a.txt", внутри папки "dir2" и "dir3" файлы с разными названиями "b.txt" и "c.txt" соответственно. Вызовем наш скрипт в терминале:
 
-<img width="300" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/080e756f-ea2c-422f-a6f8-d94815a364fb">
+<img width="299" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/ba94e58b-57a1-48fd-a58e-1afea00a2db7">
 
 Далее по завершению процесса копирования выводит: 
 
-<img width="396" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/00e52813-af30-4623-a2e3-689f2430a4d5">
+<img width="403" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/21faaa51-0cd1-4415-b6c1-78fb1b8086be">
 
 Проверим как перекопировались файлы в выходную дирекцию:
 
-<img width="142" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/2d360a49-b459-4228-8d9c-33d8c592f671">
+<img width="147" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/8a8ad793-4cff-44a6-9100-2d116bf42fe5">
 
 По итогу файлы перекопировались так:
 
-<img width="295" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/313f1fce-b065-4864-a3d4-7d46a5a91615">
-
+<img width="156" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/ff853aa3-cee6-4b86-a266-82e1c26300fe">
