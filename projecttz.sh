@@ -19,7 +19,7 @@ find "$input_dir" -type f -exec bash -c '
         if [ -e "$2/$nowfile" ]; then
             i=1
             while [ -e "$2/${nowfile}_$i" ]; do
-                let i++
+                ((i++))
             done
             cp "$file" "$2/${nowfile}_$i"
         else
