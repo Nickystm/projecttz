@@ -13,5 +13,18 @@ fi
 if [ ! -d "$output_dir" ]; then
 	mkdir -p "$output_dir"
 fi
-find "$input_dir" -type f -exec cp {} "$output_dir" \;
+find "$input_dir" -type f -exec bash -c '
+    for file; do
+        nowfile=$(basename "$file")
+        if [ -e "$2/$nowfile" ]; then
+            i=1
+            while [ -e "$2/${nowfile}_$i" ]; do
+                let i++
+            done
+            cp "$file" "$2/${nowfile}_$i"
+        else
+            cp "$file" "$2"
+        fi
+    done
+' bash {} "$output_dir" \;
 echo "The files are copied from $input_dir to $output_dir"
