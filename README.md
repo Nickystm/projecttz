@@ -29,6 +29,7 @@
    скопированы и куда.
 
                           Показан пример использования скрипта с одинаковыми названиями файлов:
+   
 Воспользуемся папкой "input_dir8", в которую помещены ещё две папки и в каждой из них есть файл с одинаковым названием: filea.txt. Вызовем наш скрипт в терминале:
 
 <img width="300" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/080e756f-ea2c-422f-a6f8-d94815a364fb">
@@ -44,3 +45,22 @@
 По итогу файлы перекопировались так:
 
 <img width="295" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/313f1fce-b065-4864-a3d4-7d46a5a91615">
+
+                          Показан пример использования скрипта с разными названиями файлов:
+                          
+Воспользуемся папкой "tests", в которую помещены ещё две папки и в каждой из них есть файл с одинаковым названием: filea.txt. Вызовем наш скрипт в терминале:
+
+<img width="300" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/080e756f-ea2c-422f-a6f8-d94815a364fb">
+
+Далее по завершению процесса копирования выводит: 
+
+<img width="396" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/00e52813-af30-4623-a2e3-689f2430a4d5">
+
+Проверим как перекопировались файлы в выходную дирекцию:
+
+<img width="142" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/2d360a49-b459-4228-8d9c-33d8c592f671">
+
+По итогу файлы перекопировались так:
+
+<img width="295" alt="image" src="https://github.com/Nickystm/projecttz/assets/167700874/313f1fce-b065-4864-a3d4-7d46a5a91615">
+
